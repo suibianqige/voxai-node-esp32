@@ -2,7 +2,7 @@ menu "Xiaozhi Assistant"
 
 config OTA_URL
     string "Default OTA URL"
-    default "https://api.tenclass.net/xiaozhi/ota/"
+    default "http://192.168.0.100:8091/api/device/ota"
     help
         The application will access this URL to check for new firmwares and server address.
 
@@ -927,14 +927,14 @@ endchoice
 
 config CUSTOM_WAKE_WORD
     string "Custom Wake Word"
-    default "xiao tu dou"
+    default "xiao hu xiao hu"
     depends on USE_CUSTOM_WAKE_WORD
     help
         Custom Wake Word, use pinyin for Chinese, separated by spaces
 
 config CUSTOM_WAKE_WORD_DISPLAY
     string "Custom Wake Word Display"
-    default "小土豆"
+    default "小呼小呼"
     depends on USE_CUSTOM_WAKE_WORD
     help
         Greeting sent to the server after wake word detection

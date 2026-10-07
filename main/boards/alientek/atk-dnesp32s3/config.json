@@ -8,7 +8,12 @@
             "sdkconfig_append": [
                 "CONFIG_CAMERA_OV2640=y",
                 "CONFIG_CAMERA_OV2640_AUTO_DETECT_DVP_INTERFACE_SENSOR=y",
-                "CONFIG_CAMERA_OV2640_DVP_YUV422_240X240_25FPS=y"
+                "CONFIG_CAMERA_OV2640_DVP_YUV422_240X240_25FPS=y",
+                "CONFIG_USE_CUSTOM_WAKE_WORD=y",
+                "CONFIG_SR_MN_CN_MULTINET6_QUANT=y",
+                "CONFIG_CUSTOM_WAKE_WORD=\"xiao hu xiao hu\"",
+                "CONFIG_CUSTOM_WAKE_WORD_DISPLAY=\"小呼小呼\"",
+                "CONFIG_CUSTOM_WAKE_WORD_THRESHOLD=50"
             ]
         }
     ]
